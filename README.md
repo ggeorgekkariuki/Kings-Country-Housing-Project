@@ -2,7 +2,7 @@
 
 ## Project Overview
 The project aims to analyze home prices and market trends using the King County House Sales dataset. It utilizes data analytics and predictive modeling techniques to identify improvements that result in the highest return on investment. The primary goal is to develop an advisory system for a real estate agency in King County, Washington. This system will aid homeowners in understanding how various modifications to their homes affect the projected value of their property.
-![alt text](beachhouses.jpg.webp)
+![alt text](images/beachhouses.jpg.webp)
 ### Business Problem
 The goal is to deliver insights to the real estate agency on how to improve return on investment by predicting the price of estates by homeowners based on specific factors. Some of the key objectives include:
 
@@ -61,7 +61,7 @@ The aim variable in this project is the "price" of the properties. This suggests
 ## Modeling
 The modeling process involves employing simple linear regressions using the `visualize_and_evaluate_regression` function. This function enables the analysis of relationships between two variables by visualizing their correlation via scatter plots and fitting a linear regression line to the data. Evaluation metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²) values are computed to assess model performance. For instance, when examining the correlation between the number of bathrooms and home prices in the King County dataset, this function generates scatter plots to visualize the relationship and then trains and tests a linear regression model. By analyzing the resulting evaluation metrics, including MSE, RMSE, and R², insights into the predictive capability of the model are gained, facilitating informed decision-making in real estate analysis.
 ![Regression models] (main/predictive-modeling-diagram.png)
-![alt text](predictive-modeling-diagram.png)
+![alt text](images/predictive-modeling-diagram.png)
 ### Simple Linear Regressions
 The function `visualize_and_evaluate_regression` serves as a comprehensive tool for analyzing the relationship between the number of features and the price of homes in the King County dataset using simple linear regression. It begins by visually representing these relationship through scatter plots, allowing for a visual inspection of how house prices vary with the features. These visualizations offer an initial understanding of the correlation between these variables, highlighting any potential trends or patterns.
 
