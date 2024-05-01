@@ -2,6 +2,7 @@
 
 ## Project Overview
 The project aims to analyze home prices and market trends using the King County House Sales dataset. It utilizes data analytics and predictive modeling techniques to identify improvements that result in the highest return on investment. The primary goal is to develop an advisory system for a real estate agency in King County, Washington. This system will aid homeowners in understanding how various modifications to their homes affect the projected value of their property.
+![alt text](images/beachhouses.jpg.webp)
 ### Business Problem
 The goal is to deliver insights to the real estate agency on how to improve return on investment by predicting the price of estates by homeowners based on specific factors. Some of the key objectives include:
 
@@ -31,8 +32,6 @@ a. Do home sales and prices follow seasonal patterns?
 b. When is the greatest time to sell a home for the highest possible price?
 
 
-
-
 ## Business Understanding
 Background information King County, Washington, is a diversified area encompassing urban, suburban, and rural areas. The housing market is fiercely competitive, fueled by substantial demand from homebuyers and investors. The county provides a variety of housing alternatives, including single-family houses, condominiums, townhouses, apartments, and luxurious estates. The county is home to exceptional schools and educational organizations, including the University of Washington.
 The county's robust transportation system effects home demand and pricing. Hiking, skiing, boating, and fishing are all outdoor recreational activities. King County homes provide a desirable balance of natural beauty, economic prospects, and quality of life amenities, making them a popular choice for both homeowners and investors. However, successfully navigating the housing market involves careful study, planning, and consideration of individual requirements and preferences
@@ -46,26 +45,11 @@ It includes 20 homes, 21,597 housing observations, and a column containing the h
 ### Variables
 The aim variable in this project is the "price" of the properties. This suggests that the result or objective variable is predicted or explained by other independent factors, such as the property's characteristics (square footage, number of bedrooms, location, etc.). In statistical modelling and analysis, the variable being modelled or projected based on the values of other variables is the price of a property. These variables will be utilized to provide answers to the data inquiries and provide the real estate firm with useful information on how to forecast prices based on characteristics that influence sales. Additional variables consist of bedrooms, square footage, flooring, grade, year of construction, year of renovation, and sale date. More information on the variables is given at the end of the document.
 
-**Additional Information on the variables**
-Square footage: Variables such as sqft_living, sqft_lot, sqft_above, and sqft_basement represent the size of the property and its living spaces. Larger properties generally tend to have higher prices.
-
-Number of bedrooms and bathrooms: bedrooms and bathrooms are important indicators of a property's size and amenities. More bedrooms and bathrooms often lead to higher prices.
-
-Location: Variables such as zipcode, lat, and long represent the geographical location of the property. Properties located in desirable neighborhoods, close to amenities, schools, or with scenic views tend to have higher prices.
-
-Condition and grade: condition and grade variables reflect the overall condition and quality of the property. Higher condition and grade ratings typically correlate with higher prices.
-
-Year built and renovation: yr_built and yr_renovated indicate the age of the property and whether it has been renovated. Newer properties or those recently renovated tend to command higher prices.
-
-View and waterfront: view and waterfront variables indicate whether the property has a view or waterfront location, which can significantly influence prices, especially in scenic or waterfront areas.
-
-Floors: The floors variable represents the number of floors in the property. Properties with multiple floors or unique architectural features may have higher prices.
-
-Neighborhood features: Variables such as nearby sqft_living15 and sqft_lot15 represent the size of living spaces and lots of nearby properties. These features can reflect the desirability of the neighborhood and impact prices.
 
 ## Modeling
 The modeling process involves employing simple linear regressions using the `visualize_and_evaluate_regression` function. This function enables the analysis of relationships between two variables by visualizing their correlation via scatter plots and fitting a linear regression line to the data. Evaluation metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²) values are computed to assess model performance. For instance, when examining the correlation between the number of bathrooms and home prices in the King County dataset, this function generates scatter plots to visualize the relationship and then trains and tests a linear regression model. By analyzing the resulting evaluation metrics, including MSE, RMSE, and R², insights into the predictive capability of the model are gained, facilitating informed decision-making in real estate analysis.
-
+![Regression models] (main/predictive-modeling-diagram.png)
+![alt text](images/predictive-modeling-diagram.png)
 ### Simple Linear Regressions
 The function `visualize_and_evaluate_regression` serves as a comprehensive tool for analyzing the relationship between the number of bathrooms and the price of homes in the King County dataset using simple linear regression. It begins by visually representing this relationship through a scatter plot, allowing for a visual inspection of how house prices vary with the number of bathrooms. This visualization offers an initial understanding of the correlation between these variables, highlighting any potential trends or patterns.
 
