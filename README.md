@@ -65,7 +65,7 @@ Neighborhood features: Variables such as nearby sqft_living15 and sqft_lot15 rep
 
 ## Modeling
 The modeling process involves employing simple linear regressions using the `visualize_and_evaluate_regression` function. This function enables the analysis of relationships between two variables by visualizing their correlation via scatter plots and fitting a linear regression line to the data. Evaluation metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²) values are computed to assess model performance. For instance, when examining the correlation between the number of bathrooms and home prices in the King County dataset, this function generates scatter plots to visualize the relationship and then trains and tests a linear regression model. By analyzing the resulting evaluation metrics, including MSE, RMSE, and R², insights into the predictive capability of the model are gained, facilitating informed decision-making in real estate analysis.
-![Example Image](predictive-modeling-diagram.png)
+
 ### Simple Linear Regressions
 The function `visualize_and_evaluate_regression` serves as a comprehensive tool for analyzing the relationship between the number of bathrooms and the price of homes in the King County dataset using simple linear regression. It begins by visually representing this relationship through a scatter plot, allowing for a visual inspection of how house prices vary with the number of bathrooms. This visualization offers an initial understanding of the correlation between these variables, highlighting any potential trends or patterns.
 
