@@ -13,25 +13,25 @@ c. what is the expected rise in the selling price of a house that has an additio
 Nevertheless, there are additional goals as well: developing a predictive model that projects a home's market value growth depending on renovation elements; and tracking trends in the real estate market.
 ###  Objectives
 
-To determine Current Market Trends and Best-Performing Features:
-
+*To determine Current Market Trends and Best-Performing Features*
 a. What factors distinguish top-performing properties in terms of sale price?
 b. Which variables (e.g bedrooms and floors) of the residences raise sale prices?
 
-To Investigate Popular Features and Preferences Across Time:
+*To Investigate Popular Features and Preferences Across Time*
 a. Which housing features and attributes have proven most popular and successful throughout time?
 b. What types of home features appeal to potential buyers?
 
-To Investigate How Home Renovations affect Sale Price:
-
+*To Investigate How Home Renovations affect Sale Price*
 a. How does adding floors affect the sale price of a home?
 b. How does the addition of bedrooms affect the sale price of a home?
 c. What is the predicted rise in the selling price of a home after an addition to its living space?
 
-To Inspect Seasonal Trends & Optimal Time to Sell:
-
+*To Inspect Seasonal Trends & Optimal Time to Sell*
 a. Do home sales and prices follow seasonal patterns?
 b. When is the greatest time to sell a home for the highest possible price?
+
+
+
 
 ## Business Understanding
 Background information King County, Washington, is a diversified area encompassing urban, suburban, and rural areas. The housing market is fiercely competitive, fueled by substantial demand from homebuyers and investors. The county provides a variety of housing alternatives, including single-family houses, condominiums, townhouses, apartments, and luxurious estates. The county is home to exceptional schools and educational organizations, including the University of Washington.
@@ -42,33 +42,11 @@ In order to predict the sales price of properties in King County, the research e
 
 It includes 20 homes, 21,597 housing observations, and a column containing the home ID. Homes sold between May 2014 and May 2015 are included in the data. The following are a few pertinent columns to be used in this analysis: price - the amount at which the property was previously sold, bedrooms - the number of bedrooms, bathrooms - the number of bathrooms, sqft_living - the square footage of the home's living area, sqft_lot - the square footage of the lot, floors - the total number of levels in the house, and grade - the overall grade of the property. Concerning the building and layout of the house as well as the year the house was built (yr_built)
 
-### Understanding the Features in our data
-id: An integer representing some unique identifier.
-date: An object (likely a string) representing dates.
-price: A floating-point number representing the price of a property.
-bedrooms: An integer representing the number of bedrooms in a property.
-bathrooms: A floating-point number representing the number of bathrooms in a property.
-sqft_living: An integer representing the square footage of living space in a property.
-sqft_lot: An integer representing the square footage of the lot on which the property sits.
-floors: A floating-point number representing the number of floors in the property.
-waterfront: An object (likely a string) indicating whether the property has a waterfront view.
-view: An object (likely a string) representing the level of view from the property.
-condition: An object (likely a string) representing the condition of the property.
-grade: An object (likely a string) representing the grade given to the property.
-sqft_above: An integer representing the square footage of the property apart from the basement.
-sqft_basement: An object (likely a string) representing the square footage of the basement.
-yr_built: An integer representing the year the property was built.
-yr_renovated: A floating-point number representing the year the property was renovated.
-zipcode: An integer representing the zipcode of the property location.
-lat: A floating-point number representing the latitude of the property location.
-long: A floating-point number representing the longitude of the property location.
-sqft_living15: An integer representing the square footage of interior housing living space for the nearest 15 neighbors.
-sqft_lot15: An integer representing the square footage of the land lots of the nearest 15 neighbors.
 
 ### Variables
 The aim variable in this project is the "price" of the properties. This suggests that the result or objective variable is predicted or explained by other independent factors, such as the property's characteristics (square footage, number of bedrooms, location, etc.). In statistical modelling and analysis, the variable being modelled or projected based on the values of other variables is the price of a property. These variables will be utilized to provide answers to the data inquiries and provide the real estate firm with useful information on how to forecast prices based on characteristics that influence sales. Additional variables consist of bedrooms, square footage, flooring, grade, year of construction, year of renovation, and sale date. More information on the variables is given at the end of the document.
-Additional Information on the variables
 
+**Additional Information on the variables**
 Square footage: Variables such as sqft_living, sqft_lot, sqft_above, and sqft_basement represent the size of the property and its living spaces. Larger properties generally tend to have higher prices.
 
 Number of bedrooms and bathrooms: bedrooms and bathrooms are important indicators of a property's size and amenities. More bedrooms and bathrooms often lead to higher prices.
@@ -87,6 +65,7 @@ Neighborhood features: Variables such as nearby sqft_living15 and sqft_lot15 rep
 
 ## Modeling
 The modeling process involves employing simple linear regressions using the `visualize_and_evaluate_regression` function. This function enables the analysis of relationships between two variables by visualizing their correlation via scatter plots and fitting a linear regression line to the data. Evaluation metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²) values are computed to assess model performance. For instance, when examining the correlation between the number of bathrooms and home prices in the King County dataset, this function generates scatter plots to visualize the relationship and then trains and tests a linear regression model. By analyzing the resulting evaluation metrics, including MSE, RMSE, and R², insights into the predictive capability of the model are gained, facilitating informed decision-making in real estate analysis.
+![Example Image](predictive-modeling-diagram.png)
 ### Simple Linear Regressions
 The function `visualize_and_evaluate_regression` serves as a comprehensive tool for analyzing the relationship between the number of bathrooms and the price of homes in the King County dataset using simple linear regression. It begins by visually representing this relationship through a scatter plot, allowing for a visual inspection of how house prices vary with the number of bathrooms. This visualization offers an initial understanding of the correlation between these variables, highlighting any potential trends or patterns.
 
@@ -125,13 +104,17 @@ In conclusion, the analysis of the King County House Sales dataset has provided 
 ### Solutions offered by our analysis
 
 **Current Market Trends and Best-Performing Features**
+
 Our analysis reveals that certain types of homes are currently selling better in the market based on their price, with features such as square footage of living space, number of bathrooms, and other amenities playing significant roles in distinguishing top-performing properties. By identifying these factors, real estate agencies can better tailor their offerings to meet market demands and optimize their sales strategies.
 
 **Popular Features and Preferences Across Time**
+
 Through our analysis, we've identified housing features and attributes that have consistently proven popular and successful over time. Understanding current trends in homebuyers' preferences, as well as their preferences according to property ratings and reviews, can provide valuable guidance for property developers and real estate agents seeking to meet customer needs effectively.
 
 **Home Renovations and Sale Price**
+
 Our analysis also sheds light on how various home renovations, such as adding floors or bedrooms, can impact the sale price of a home. By quantifying the predicted rise in selling price after specific renovations, homeowners can make informed decisions about potential investments in their properties to maximize returns.
 
 **Seasonal Trends & Optimal Time to Sell** 
+
 By examining seasonal patterns in home sales and prices, our analysis helps to identify the optimal time to sell a home for the highest possible price. Understanding these trends allows sellers to time their listings strategically and capitalize on periods of peak demand in the market.
