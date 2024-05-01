@@ -8,40 +8,40 @@ The goal is to deliver insights to the real estate agency on how to improve retu
 
 Examining which renovation factors have the biggest effects on raising a home's assessed value, i.e. 
 
-a. how much will the sale price likely increase by adding floors?
+- how much will the sale price likely increase by adding floors?
 
-b. how much will the sale price likely increase by adding bedrooms?
- 
-c. what is the expected rise in the selling price of a house that has an addition to its living area?
+- how much will the sale price likely increase by adding bedrooms?
+
+- what is the expected rise in the selling price of a house that has an addition to its living area?
 
 Nevertheless, there are additional goals as well: developing a predictive model that projects a home's market value growth depending on renovation elements; and tracking trends in the real estate market.
 ###  Objectives
 
 **To determine Current Market Trends and Best-Performing Features**
 
-a. What factors distinguish top-performing properties in terms of sale price?
+- What factors distinguish top-performing properties in terms of sale price?
 
-b. Which variables (e.g bedrooms and floors) of the residences raise sale prices?
+- Which variables (e.g bedrooms and floors) of the residences raise sale prices?
 
 **To Investigate Popular Features and Preferences Across Time**
 
-a. Which housing features and attributes have proven most popular and successful throughout time?
+- Which housing features and attributes have proven most popular and successful throughout time?
 
-b. What types of home features appeal to potential buyers?
+- What types of home features appeal to potential buyers?
 
 **To Investigate How Home Renovations affect Sale Price**
 
-a. How does adding floors affect the sale price of a home?
+- How does adding floors affect the sale price of a home?
 
-b. How does the addition of bedrooms affect the sale price of a home?
+- How does the addition of bedrooms affect the sale price of a home?
 
-c. What is the predicted rise in the selling price of a home after an addition to its living space?
+- What is the predicted rise in the selling price of a home after an addition to its living space?
 
 **To Inspect Seasonal Trends & Optimal Time to Sell**
 
-a. Do home sales and prices follow seasonal patterns?
+- Do home sales and prices follow seasonal patterns?
 
-b. When is the greatest time to sell a home for the highest possible price?
+- When is the greatest time to sell a home for the highest possible price?
 
 
 ## Business Understanding
