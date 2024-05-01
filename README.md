@@ -1,8 +1,9 @@
-
+# KING COUNTY REAL ESTATE AGENCY
 
 ## Project Overview
 The project aims to analyze home prices and market trends using the King County House Sales dataset. It utilizes data analytics and predictive modeling techniques to identify improvements that result in the highest return on investment. The primary goal is to develop an advisory system for a real estate agency in King County, Washington. This system will aid homeowners in understanding how various modifications to their homes affect the projected value of their property.
 ![alt text](images/beachhouses.jpg.webp)
+
 ### Business Problem
 The goal is to deliver insights to the real estate agency on how to improve return on investment by predicting the price of estates by homeowners based on specific factors. Some of the key objectives include:
 
@@ -122,3 +123,6 @@ Our analysis also sheds light on how various home renovations, such as adding fl
 **Seasonal Trends & Optimal Time to Sell** 
 
 By examining seasonal patterns in home sales and prices, our analysis helps to identify the optimal time to sell a home for the highest possible price. Understanding these trends allows sellers to time their listings strategically and capitalize on periods of peak demand in the market.
+
+
+**Author**: [George Kariuki](mailto:george.kariuki1@student.moringaschool.com), [Titus Kaluma](mailto:titus.kaluma@student.moringaschool.com), [Samuel Gichuru](mailto:samuel.gichuru@student.moringaschool.com), [Gerald Mwangi](mailto:gerald.mwangi@student.moringaschool.com), [Lynette Wangari](mailto:lynette.wangare@student.moringaschool.com), [Marion Achieng](mailto:marion.achieng@student.moringaschool.com), [Jerry Narkiso](mailto:jerry.narkiso@student.moringaschool.com), [Benedict Narkiso](mailto:benedict.kuloba@student.moringaschool.com), [Annbellah Mbungu](mailto:annbellah.mbungu@student.moringaschool.com)
